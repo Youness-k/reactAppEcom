@@ -1,0 +1,38 @@
+.about{
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+.about h2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.about .text{
+    max-width: 800px;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.about h3 {
+    margin: 1rem;
+    text-transform: capitalize;
+    color: #2706c3;
+    border-bottom: solid 1px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bestof {
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+  }
+}
